@@ -4,7 +4,7 @@ nav {
   align-items: center;
 
   line-height: 0;
-  padding-block: 20px;
+  padding-block: 2rem;
 
 
 }
@@ -13,13 +13,13 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 24px;
-  padding-block: 8px;
+  gap: 2.4rem;
+  padding-block: 0.8rem;
 }
 
 nav ul li:last-child img {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   object-fit: cover;
   border-radius: 50%;
 }

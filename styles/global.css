@@ -18,6 +18,9 @@
   --text: 16px/150% var(--font-family);
   --text-md: 14px/170% var(--font-family);
   --text-sm: 12px/170% var(--font-family);
+
+  font-size: 62.5%;
+  font-family: "Mulish", serif;
 }
 
 body {
@@ -38,11 +41,73 @@ a:hover {
 
 
 .container {
-  padding-inline: 32px;
-  max-width: 1280px;
+  padding-inline: 3.2rem;
+  max-width: 128rem;
   margin-inline: auto;
 }
 
 .bg-surface-color {
   background-color: var(--surface-color);
+}
+
+@media (max-width: 76.8rem) {
+  @media (max-width: 76.8rem) {
+    header {
+      justify-content: space-between;
+      width: 100%;
+      padding-inline: 1.6rem;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #profile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1.6rem;
+      gap: 1.6rem;
+    }
+  
+    #primary-menu {
+      display: none;
+    }
+  
+    #profile div {
+      width: 100%;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Alinha ao canto esquerdo */
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    #profile-text {
+      margin-top: 1.6rem;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #profile img {
+      max-width: 14rem;
+      height: 14rem;
+    }
+  }
+  
 }
